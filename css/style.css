@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/*Style for Header*/
+header .bg-light {
+    background-color: #4a4a4a !important;
+}
+
+header .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+header .navbar-light .navbar-nav .nav-link.active {
+    color: #bea285;
+}
+
+header .navbar-light .navbar-nav .nav-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+header .navbar-light .navbar-nav .nav-item:hover {
+    background-color: #f8f8f8;
+    color: #6c6c6c;
+}
+
+header .navbar-light .navbar-toggler span {
+    color: #f8f8f8;
+}
+
+/* Style for Carousel */
+
+#carousel .carousel-inner img{
+    height: 600px; 
+    width: 210px;
+}
+
