@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,20 +12,18 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>HomePage</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="myNav">
-                <h1 class="logo"><a href="index.php">Online Book Store</a></h1>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php">Online Book Store</a>
-                        </li>
+                    <h1 class="logo"><a href="index.php">Online Book Store</a></h1>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 300px;">
                         <li class="nav-item">
                             <a class="nav-link" href="books_catalog.php">Book Catalog</a>
                         </li>
@@ -47,9 +46,9 @@
                     </ul>
                 </div>
             </div>
-      </nav>
+        </nav>
     </header>
-  
+
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -58,13 +57,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="img/book-7.jpg" class="d-block w-100" alt="...">
+                <img src="img/book-7.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="img/books.jpg" class="d-block w-100" alt="...">
+                <img src="img/books.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="img/istockphoto1.jpg" class="d-block w-100" alt="...">
+                <img src="img/istockphoto1.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -75,8 +74,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-</div>
-  
+    </div>
+
+    <?php
+        include_once('footer.php');
+    ?>
+
 
 
 
@@ -86,5 +89,16 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+
+
+    <script>
+        //Carousel
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 1400,
+            wrap: true
+        });
+    </script>
+</body>
+
 </html>

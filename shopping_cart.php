@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,19 +12,18 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Shopping Cart</title>
-  </head>
-  <body>
-  <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+</head>
+
+<body>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fas fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="myNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php">Online Book Store</a>
-                        </li>
+                    <h1 class="logo"><a href="index.php">Online Book Store</a></h1>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 300px;">
                         <li class="nav-item">
                             <a class="nav-link" href="books_catalog.php">Book Catalog</a>
                         </li>
@@ -46,18 +46,11 @@
                     </ul>
                 </div>
             </div>
-      </nav>
+        </nav>
     </header>
-  
-  
+    <?php
+    include_once('footer.php');
+    ?>
+</body>
 
-
-
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
 </html>

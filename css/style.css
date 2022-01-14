@@ -4,7 +4,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
 }
-
+ 
 
 /*Style for Header*/
 header .bg-light {
@@ -15,6 +15,7 @@ header .navbar {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 
 header .navbar-light .navbar-nav .nav-link {
     color: #fff;
@@ -47,4 +48,10 @@ header .navbar-light .navbar-toggler span {
     height: 600px; 
     width: 210px;
 }
+
+
+
+
+
+/* Footer */
 
