@@ -30,9 +30,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="shopping_cart.php">Shopping Cart</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="order_confirmation.php">Order Confirmation</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="payment_by_creditcard.php">Payment</a>
                         </li>
